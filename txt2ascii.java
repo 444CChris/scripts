@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class txt2ascii{
-    public static main(String[] args){
+    public static void main(String[] args){
         File textFile = new File("text.txt");
         File ascii = new File("Ascii.txt");
         Scanner textScan = new Scanner(textFile);
